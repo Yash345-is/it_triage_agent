@@ -1,0 +1,19 @@
+CRITICAL: Disk usage at 98% on PROD-SERVER-01. Application throwing write errors. Users cannot save files. Started 30 minutes ago.
+---
+ALERT: Suspicious login detected from IP 185.234.219.57 (Russia). User admin accessing sensitive HR files at 2:47am. No prior logins from this location.
+---
+WARNING: VPN connections dropping repeatedly for 15 remote users. Users unable to access internal systems. Issue started after maintenance window last night.
+---
+CRITICAL: Ransomware detected on DESKTOP-FINANCE-04. Files being encrypted. Network shares may be at risk. User reported files have strange extensions.
+---
+ERROR: Production deployment failed. Website returning 500 errors for all users. Last successful deployment was 2 hours ago. Revenue impact ongoing.
+---
+WARNING: CPU usage at 100% on DATABASE-SERVER-02 for past 45 minutes. All database queries timing out. Multiple applications affected.
+---
+INFO: SSL certificate for customer-portal.company.com expires in 3 days. Auto-renewal failed. Users will see security warning if not renewed.
+---
+WARNING: Printer on 3rd floor not responding. Print jobs stuck in queue for 2 hours. 20 users affected.
+---
+CRITICAL: DDoS attack detected. Web server receiving abnormal traffic. Site response time degraded severely. Attack ongoing.
+---
+ERROR: Active Directory replication failing between DC01 and DC02. Group policy not applying to workstations. Users cannot login to some systems.
