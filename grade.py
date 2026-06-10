@@ -11,7 +11,7 @@ print("Average marks calculated....Average marks",avg,"....50% there....")
 print("Calculating average grade....75% there....")
 if avg >= 90.0:
     print("Average grade calculated....Average grade A....100% there")
-if avg >= 80.0 and avg< 89.0:
+if avg >= 80.0 and avg< 90.0:
     print("Average grade calculated....Average grade B....100% there")
 if avg >= 70.0 and avg < 80.0:
     print("Average grade calculated....Average grade C....100% there")
