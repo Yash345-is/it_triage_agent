@@ -1,4 +1,5 @@
-secret_number = 27
+import random
+secret_number = random.randint(1,11)
 tries=0
 guess = int(input("Try to guess my number!: "))
 while guess != secret_number:
