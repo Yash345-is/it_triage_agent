@@ -15,15 +15,16 @@ try:
             divide = n1 / n2
             return divide
     if choice == 1:
-          print(n1+n2)
+        print(MyAdd(n1,n2))
+
     elif choice == 2:
-        print(n1-n2)
+        print(MySubtract(n1,n2))
             
     elif choice == 3:
-          print(n1*n2)
+        print(MyMultiply(n1,n2))
         
     elif choice == 4:
-          print(n1/n2)
+        print(MyDivide(n1,n2))
         
             
     
