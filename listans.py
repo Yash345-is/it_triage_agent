@@ -12,7 +12,6 @@ def matching(list1):
 
 list1 = ["grg","lol","xx","brl","grtghy"]
 
-print("There are",matching(list1),"words which have satisfied both the conditions")
-    
+print("There are",matching(list1),"words which have satisfied both the conditions")    
     
  
