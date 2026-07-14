@@ -3,7 +3,7 @@ import random
 code = random.randint(100,999)
 tries = 10
 
-guess = int(input("You have just found a mysterious digital device.The pin is a three digit number.Five guesses what it is!:"))
+guess = int(input("You have just found a mysterious digital device.The pin is a three digit number.Ten   guesses what it is!:"))
 
 if guess != code:
     tries = tries-1
