@@ -1,40 +1,37 @@
 dict1 = {"student1":90,"student2":85,"student3":92,"student4":89,"student5":95}
-a = dict1.get("student1")
-b = dict1.get("student2")
-c = dict1.get("student3")
-d = dict1.get("student4")
-e = dict1.get("student5")
 
-avg = (a + b + c + d + e)/5
+sum = 0
+
+for i in dict1.values():
+    sum = sum + i
+
+print(sum)
+
+avg = sum/5
 
 print(avg)
-    
-f = max(dict1)
 
-print(f)
+a = max(dict1)
 
-g = min(dict1)
+print(a)
 
-print(g)
-    
-lookup = input("Which students's marks do you want to get?:")
+b = min(dict1)
 
+print(b)
+
+
+lookup = input("Which student's marks do you want to look for?:")
 if lookup == "student1":
-    print(a)
+    print(dict1.get("student1"))
 
-if lookup == "student2":
-    print(b)
+elif lookup == "student2":
+    print(dict1.get("student2"))
 
-if lookup == "student3":
-    print(c)
+elif lookup == "student2":
+    print(dict1.get("student3"))
 
-if lookup == "student4":
-    print(d)
+elif lookup == "student4":
+    print(dict1.get("student4"))
 
-if lookup == "student5":
-    print(e)
-
-
-
-
-
+elif lookup == "student5":
+    print(dict1.get("student5"))
